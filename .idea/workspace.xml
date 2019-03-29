@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfe3ea7-634b-4e8b-ad6b-d39ca4ffe893" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/dishes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/dishes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/static/frontend/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +57,7 @@
         <option value="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/scoutbee/dishes/admin.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,6 +133,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29172716" />
@@ -318,6 +322,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
