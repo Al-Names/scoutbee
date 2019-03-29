@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acfe3ea7-634b-4e8b-ad6b-d39ca4ffe893" name="Default Changelist" comment="" />
+    <list default="true" id="acfe3ea7-634b-4e8b-ad6b-d39ca4ffe893" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/dishes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/dishes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,44 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/SearchBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +29,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,7 +44,6 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" />
         <option value="$PROJECT_DIR$/scoutbee/scoutbee/settings.py" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/views.py" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/urls.py" />
@@ -77,6 +53,8 @@
         <option value="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Dishes.js" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/src/components/App.js" />
         <option value="$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js" />
+        <option value="$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html" />
+        <option value="$PROJECT_DIR$/scoutbee/dishes/admin.py" />
       </list>
     </option>
   </component>
@@ -85,6 +63,7 @@
     <option name="width" value="710" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,22 +86,7 @@
               <item name="scoutbee" type="b2602c69:ProjectViewProjectNode" />
               <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
               <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scoutbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
-              <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scoutbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
-              <item name="scoutbee" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dishes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scoutbee" type="b2602c69:ProjectViewProjectNode" />
@@ -166,7 +130,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="730" y="0" width="710" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29172716" />
@@ -210,13 +173,6 @@
     <entry file="file://$PROJECT_DIR$/scoutbee/scoutbee/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoutbee/dishes/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scoutbee/dishes/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -259,20 +215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scoutbee/scoutbee/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -320,17 +262,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/templates/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -341,10 +290,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/Menu.js">
+    <entry file="file://$PROJECT_DIR$/scoutbee/frontend/src/components/menu/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoutbee/dishes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoutbee/dishes/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoutbee/scoutbee/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>

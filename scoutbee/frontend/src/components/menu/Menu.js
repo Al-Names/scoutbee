@@ -1,14 +1,12 @@
 import React, { Fragment } from "react";
 
-import SearchBar from './SearchBar';
-import Dishes from './Dishes';
+import Dishes from "./Dishes";
 
 export default function Menu() {
   return (
-   <Fragment>
-       <SearchBar />
-       <Dishes />
-   </Fragment>
-  )
+    <Fragment>
+      <h2>Menu</h2>
+      <Dishes />
+    </Fragment>
+  );
 }
-
