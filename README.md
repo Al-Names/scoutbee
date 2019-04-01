@@ -7,6 +7,7 @@ cd into scoutbeeand run "python3 manage.py runserver"
 
 #For Frontend
 
+Npm install and then 
 run "npm run dev" from root directory
 
 #Django Admin Login
