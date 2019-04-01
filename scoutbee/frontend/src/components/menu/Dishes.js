@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { getDishes, filterDishes } from "../../actions/dishes";
+import { getDishes, filterDishes, sortDishes } from "../../actions/dishes";
+import { getFilteredDishes } from "../../selectors/dishes";
 
 class Dishes extends Component {
   constructor(props) {
@@ -46,8 +47,12 @@ class Dishes extends Component {
         <table className="table table-striped">
           <thead>
             <tr>
-              <th>Dish</th>
-              <th>Price</th>
+              <th onClick={() => this.props.sortDishes("name")}>
+                Dish <i className="fas fa-sort" />
+              </th>
+              <th onClick={() => this.props.sortDishes("price")}>
+                Price <i className="fas fa-sort" />
+              </th>
               <th />
             </tr>
           </thead>
@@ -66,10 +71,10 @@ class Dishes extends Component {
 }
 
 const mapStateToProps = state => ({
-  dishes: state.dishes.filteredDishes,
+  dishes: getFilteredDishes(state),
   dishesFilter: state.dishes.filter
 });
 export default connect(
   mapStateToProps,
-  { getDishes, filterDishes }
+  { getDishes, filterDishes, sortDishes }
 )(Dishes);

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { GET_DISHES, FILTER_DISHES } from "./types";
+import { GET_DISHES, FILTER_DISHES, SORT_DISHES } from "./types";
 
 export const getDishes = () => dispatch => {
   axios
@@ -18,5 +18,12 @@ export const filterDishes = filter => ({
   type: FILTER_DISHES,
   payload: {
     filter
+  }
+});
+
+export const sortDishes = sortBy => ({
+  type: SORT_DISHES,
+  payload: {
+    fieldName: sortBy
   }
 });

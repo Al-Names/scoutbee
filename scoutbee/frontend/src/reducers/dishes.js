@@ -1,9 +1,11 @@
-import { GET_DISHES, FILTER_DISHES } from "../actions/types";
+import { GET_DISHES, FILTER_DISHES, SORT_DISHES } from "../actions/types";
 
 const inistialState = {
   dishes: [],
   filteredDishes: [],
-  filter: ""
+  filter: "",
+  sortBy: "name",
+  order: "asc"
 };
 
 export default function(state = inistialState, action) {
@@ -29,6 +31,21 @@ export default function(state = inistialState, action) {
           elem.name.toLowerCase().includes(filter.toLowerCase())
         ),
         filter
+      };
+    }
+    case SORT_DISHES: {
+      const { fieldName } = action.payload;
+      console.log(fieldName);
+      let order;
+      if (fieldName === state.sortBy) {
+        order = state.order === "asc" ? "desc" : "asc";
+      } else {
+        order = "asc";
+      }
+      return {
+        ...state,
+        sortBy: fieldName,
+        order
       };
     }
     default:
