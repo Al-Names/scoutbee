@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
-import Header from "./layout/Header";
+import Header from "./layout/header";
 import Menu from "./menu/Menu";
 
 import { Provider } from "react-redux";
