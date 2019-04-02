@@ -8,12 +8,8 @@ class Dishes extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      filter: "",
-      sortByAsc: true,
-      ListDishes: []
+      filter: ""
     };
-
-    this.handleSort = this.handleSort.bind(this);
   }
   static propTypes = {
     dishes: PropTypes.array.isRequired,
@@ -22,18 +18,6 @@ class Dishes extends Component {
 
   componentDidMount() {
     this.props.getDishes();
-    this.setState({ ListDishes: this.props.dishes });
-  }
-
-  handleSort(colName) {
-    let { ListDishes, sortByAsc } = this.state;
-    if (sortByAsc) {
-      ListDishes = ListDishes.sort((x, y) => (x[colName] < y[colName] ? 1 : -1));
-    } else {
-      ListDishes = ListDishes.sort((x, y) => (x[colName] > y[colName] ? 1 : -1));
-    }
-
-    this.setState({ ListDishes, sortByAsc: !sortByAsc });
   }
 
   filterSearch = event => {
@@ -45,8 +29,6 @@ class Dishes extends Component {
   };
 
   render() {
-    const { ListDishes } = this.state;
-
     return (
       <Fragment>
         <div className="form-group">
@@ -65,17 +47,17 @@ class Dishes extends Component {
         <table className="table table-striped">
           <thead>
             <tr>
-              <th onClick={() => this.handleSort("dish")}>
+              <th onClick={() => this.props.sortDishes("name")}>
                 Dish <i className="fas fa-sort" />
               </th>
-              <th onClick={() => this.handleSort("price")}>
+              <th onClick={() => this.props.sortDishes("price")}>
                 Price <i className="fas fa-sort" />
               </th>
               <th />
             </tr>
           </thead>
           <tbody>
-            {ListDishes.map(dish => (
+            {this.props.dishes.map(dish => (
               <tr key={dish.id}>
                 <td>{dish.name}</td>
                 <td>${dish.price}</td>
